@@ -45,16 +45,16 @@ Front-end is ready to integrate with the [Lumx Protocol](https://docs.lumx.io/ap
 </p>Front-end Deployed at Vercel => https://lumx-tdc.vercel.app </p>
 
 
-## Criar Token com Zero conhecimento de Smart Contract 
+## Create Token with Zero Knowledge of Smart Contracts
 <p><a href= "https://www.loom.com/share/547878f4f45e41fc9d14c5fb5c4fcbd6?sid=5e1af2be-e0de-4fa9-8dc1-224957230b58"> 
 Demo  
 </a> </p>
 
-## Criar Token atraves de Custom Transaction
+## Create Token via Custom Transaction
 <p><a href= "https://www.loom.com/share/547878f4f45e41fc9d14c5fb5c4fcbd6?sid=5e1af2be-e0de-4fa9-8dc1-224957230b58"> 
 Demo
 </a> </p>
-Contrato criado na rede Polygon, com functions sendo chamadas atraves da API Lumx, funcionalidade Custom Transaction
+Contract created on the Polygon network, with functions being called through the Lumx API, featuring Custom Transaction functionality.
 <p>Contract Address: 0x10beA54dd546F53b0736c7b5fB5A5BD105fe5749</p>
 
 ### Explorer Scan
