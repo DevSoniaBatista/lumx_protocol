@@ -36,13 +36,13 @@ Your app is ready to be deployed!
 ### `vercel --prod`
 Deploy the app to production.
 
-For more information about deployment, visit: [Vercel] (https://vercel.com)
+For more information about deployment, visit: [Vercel](https://vercel.com)
 
 # Important
 
 ## Front-end - Web2 
-<p>Front-end is ready to integrate with the [Lumx Protocol](https://docs.lumx.io/api-reference/v2).</p>
-<p>Front-end Deployed at vercel: (https://lumx-tdc.vercel.app) </p>
+Front-end is ready to integrate with the [Lumx Protocol](https://docs.lumx.io/api-reference/v2).
+</p>Front-end Deployed at Vercel => https://lumx-tdc.vercel.app </p>
 
 
 ## Criar Token com Zero conhecimento de Smart Contract 
