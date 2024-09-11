@@ -43,7 +43,7 @@ For more information about deployment, visit: [Vercel] (https://vercel.com)
 
 # Lumx
 <h1 align="center"> 
-    <img src="/public/logo.png" width="200" height="100">
+    <img src="/public/logo.png" width="200" height="80">
 </h1>
 
 ## Lumx Protocol Documentation
