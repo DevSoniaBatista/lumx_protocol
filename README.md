@@ -40,17 +40,8 @@ For more information about deployment, visit: [Vercel] (https://vercel.com)
 
 # Important
 
-
-# Lumx
-<h1 align="center"> 
-    <img src="/public/logo.png" width="200" height="60">
-</h1>
-
-## Lumx Protocol Documentation
-https://docs.lumx.io/api-reference/v2
-
-
 ## Front End - Web2 
+Front-end is ready to integrate with the [Lumx Protocol](https://docs.lumx.io/api-reference/v2)
 https://lumx-tdc.vercel.app/
 
 
