@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create Next App
 
 This project was bootstrapped with [Create Next App](https://nextjs.org/learn-pages-router/basics/create-nextjs-app/setup).
 
