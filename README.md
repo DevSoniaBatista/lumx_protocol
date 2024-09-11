@@ -40,9 +40,9 @@ For more information about deployment, visit: [Vercel] (https://vercel.com)
 
 # Important
 
-## Front End - Web2 
-Front-end is ready to integrate with the [Lumx Protocol](https://docs.lumx.io/api-reference/v2)
-https://lumx-tdc.vercel.app/
+## Front-end - Web2 
+Front-end is ready to integrate with the [Lumx Protocol](https://docs.lumx.io/api-reference/v2).
+[Front-end] Deployed at vercel (https://lumx-tdc.vercel.app)
 
 
 ## Criar Token com Zero conhecimento de Smart Contract 
