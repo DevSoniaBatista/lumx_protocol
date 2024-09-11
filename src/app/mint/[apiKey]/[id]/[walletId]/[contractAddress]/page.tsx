@@ -51,7 +51,7 @@ export default function Mint() {
         contractAddress: false
       });
 
-    const handleCopyClick = (type: 'id' | 'walletId'| 'blockExplorerUrl'| 'transactionHash'| 'apiKey' | 'contratcAddress', text: string) => {
+    const handleCopyClick = (type: 'id' | 'walletId'| 'blockExplorerUrl'| 'transactionHash'| 'apiKey' | 'contractAddress', text: string) => {
       navigator.clipboard.writeText(text);
       setCopied((prevState) => ({ ...prevState, [type]: true }));
   
@@ -190,6 +190,14 @@ export default function Mint() {
                                 </tr>
                               ))}
 
+                          <tr>
+                              <td className="px-2 py-1 whitespace-normal break-words text-gray-900">contract address</td>
+                              <td className="px-2 py-1 whitespace-normal break-words text-gray-500">
+                                  <Image src="/copy.png" onClick={() => handleCopyClick('contractAddress', contractAddress)}
+                                      width="30" height="30" alt="Copy apiKey"/> {copied[`contractAddress`] ? 'Copied!' : ''}
+                                    {contractAddress}                                   
+                              </td>
+                          </tr>
                           <tr>
                               <td className="px-2 py-1 whitespace-normal break-words text-gray-900">apiKey</td>
                               <td className="px-2 py-1 whitespace-normal break-words text-gray-500">

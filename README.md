@@ -46,14 +46,12 @@ Front-end is ready to integrate with the [Lumx Protocol](https://docs.lumx.io/ap
 
 
 ## Create Token with Zero Knowledge of Smart Contracts
-<p><a href= "https://www.loom.com/share/547878f4f45e41fc9d14c5fb5c4fcbd6?sid=5e1af2be-e0de-4fa9-8dc1-224957230b58"> 
+<p><a href= "https://www.loom.com/share/b7153151c8894d1ea8931a321d8f3010?sid=d0c96fa1-79d1-41c2-b6ea-1d402cc28318"> 
 Demo  
 </a> </p>
 
 ## Create Token via Custom Transaction
-<p><a href= "https://www.loom.com/share/547878f4f45e41fc9d14c5fb5c4fcbd6?sid=5e1af2be-e0de-4fa9-8dc1-224957230b58"> 
-Demo
-</a> </p>
+Demo (soon)
 Contract created on the Polygon network, with functions being called through the Lumx API, featuring Custom Transaction functionality.
 <p>Contract Address: 0x10beA54dd546F53b0736c7b5fB5A5BD105fe5749</p>
 

@@ -18,12 +18,11 @@ export default function Deploy() {
   const initialWalletIdVerified = Array.isArray(initialWalletId) ? initialWalletId[0] : initialWalletId || '';
   const [walletId, setWalletId] = useState<string>(initialWalletIdVerified);
 
-  const CONTRACT_ID_DEPLOYED = `${process.env.CONTRACT_ADDRESS}`;
   const [transaction, setTransaction] = useState<NewCustomTransaction>({
     apiKey: initialApiKeyVerified,
     walletId: initialWalletIdVerified,
     contractAddress: "",
-    functionSignature: "createToken",
+    functionSignature: "",
     argumentsValues: "",
     messageValue: 0
   });
@@ -31,15 +30,16 @@ export default function Deploy() {
   const [message, setMessage] = useState<string>("");
   const [transactionResponse, setTransactionResponse] = useState<CustomTransactionResponse | null>(null);
 
-  const [copied, setCopied] = useState<{ id: boolean; walletId: boolean;  blockExplorerUrl: boolean; transactionHash: boolean; apiKey: boolean }>({
+  const [copied, setCopied] = useState<{ id: boolean; walletId: boolean;  blockExplorerUrl: boolean; transactionHash: boolean; apiKey: boolean; contractAddress: boolean }>({
     id: false,
     walletId: false,
     blockExplorerUrl: false,
     transactionHash: false,
     apiKey: false,
+    contractAddress: false
   });
 
-  const handleCopyClick = (type: 'id' | 'walletId'| 'blockExplorerUrl'| 'transactionHash'| 'apiKey', text: string) => {
+  const handleCopyClick = (type: 'id' | 'walletId'| 'blockExplorerUrl'| 'transactionHash'| 'apiKey' | 'contractAddress' , text: string) => {
     navigator.clipboard.writeText(text);
     setCopied((prevState) => ({ ...prevState, [type]: true }));
 
@@ -172,6 +172,16 @@ export default function Deploy() {
                                     </td>
                                   </tr>
                                 ))}
+                              {transaction?.contractAddress && (
+                              <tr>
+                              <td className="px-2 py-1 whitespace-normal break-words text-gray-900">contract address</td>
+                              <td className="px-2 py-1 whitespace-normal break-words text-gray-500">
+                                  <Image src="/copy.png" onClick={() => handleCopyClick('contractAddress', transaction.contractAddress ?? '')}
+                                      width="30" height="30" alt="Copy apiKey"/> {copied[`contractAddress`] ? 'Copied!' : ''}
+                                    {transaction.contractAddress}                                   
+                                  </td>
+                              </tr>
+                          )}
                           <tr>
                               <td className="px-2 py-1 whitespace-normal break-words text-gray-900">apiKey</td>
                               <td className="px-2 py-1 whitespace-normal break-words text-gray-500">
@@ -179,7 +189,7 @@ export default function Deploy() {
                                       width="30" height="30" alt="Copy apiKey"/> {copied[`apiKey`] ? 'Copied!' : ''}
                                   {apiKey?.substring(0, 50)} ......... {apiKey?.substring(1140)}
                               </td>
-                          </tr> 
+                          </tr>                     
                       </tbody>
                     </table>
                   </div>

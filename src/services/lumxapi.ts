@@ -165,7 +165,7 @@ export type CustomTransactionResponse = {
     type: string,
     createdAt: string,
     updatedAt: string,
-    completedAt: string
+    completedAt: string,
 }
 export async function connectWallet(): Promise<WalletResponse>{
     
@@ -512,7 +512,7 @@ export async function createCustomTransaction(transaction: NewCustomTransaction)
                      const pollingResult = pollingResponse.data;
  
                      if (pollingResult && pollingResult.status !== "created") {
- 
+
                          if(pollingResult.status === "failed"){
                              console.log("==============>"+pollingResult.result.error.errors);
                              transactionResponse.result = pollingResult.result.error.errors; 
@@ -545,3 +545,4 @@ export async function createCustomTransaction(transaction: NewCustomTransaction)
  
      return transactionResponse;
  }
+
