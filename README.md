@@ -67,5 +67,3 @@ https://amoy.polygonscan.com/address/0x10beA54dd546F53b0736c7b5fB5A5BD105fe5749
 <p>Dev Blockchain, Solidity, Web3 </p>
 <p>Linkedin: (https://www.linkedin.com/in/soniamarabatista/) </p>
 <p>Email: dev.soniabatista@gmail.com </p>
-# api_lumx
-# api_lumx
