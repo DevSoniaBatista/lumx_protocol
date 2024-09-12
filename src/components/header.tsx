@@ -17,7 +17,7 @@ export default function Header() {
                 <Link href="/mintTDC" className="font-medium hover:text-gray-300 py-2 text-opacity-60 text-gray-900lg:p-4 xl:px-6">Token TDC</Link>
                 <Link href="/zk" className="font-medium hover:text-gray-300 py-2 text-opacity-60 text-gray-900lg:p-4 xl:px-6">Create Token zK</Link>
                 <Link href="/custom" className="font-medium hover:text-gray-300 py-2 text-opacity-60 text-gray-900lg:p-4 xl:px-6">Custom Transaction</Link>
-                <Link href="/home" className="font-medium hover:text-gray-300 py-2 text-opacity-60 text-gray-900lg:p-4 xl:px-6">Home</Link>
+                <Link href="/" className="font-medium hover:text-gray-300 py-2 text-opacity-60 text-gray-900lg:p-4 xl:px-6">Home</Link>
               </div>
             </div>
           </nav>
