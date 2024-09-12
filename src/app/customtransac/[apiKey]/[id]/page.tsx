@@ -189,7 +189,15 @@ export default function Deploy() {
                                       width="30" height="30" alt="Copy apiKey"/> {copied[`apiKey`] ? 'Copied!' : ''}
                                   {apiKey?.substring(0, 50)} ......... {apiKey?.substring(1140)}
                               </td>
-                          </tr>                     
+                          </tr>
+                          <tr>
+                              <td className="px-2 py-1 whitespace-normal break-words text-gray-900">OpenSea</td>
+                              <td className="px-2 py-1 whitespace-normal break-words text-gray-500">  
+                              <a href={`https://testnets.opensea.io/assets/sepolia/${transaction.contractAddress}`}  target="_blank" rel="noopener noreferrer" className="text-gray-400 underline">
+                                    OpenSea 
+                              </a>
+                              </td>
+                          </tr> 
                       </tbody>
                     </table>
                   </div>
@@ -202,3 +210,4 @@ export default function Deploy() {
     </>
   );
 }
+

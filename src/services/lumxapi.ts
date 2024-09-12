@@ -514,7 +514,7 @@ export async function createCustomTransaction(transaction: NewCustomTransaction)
                      if (pollingResult && pollingResult.status !== "created") {
 
                          if(pollingResult.status === "failed"){
-                             console.log("==============>"+pollingResult.result.error.errors);
+                             console.log("error custom: ==============>"+pollingResult);
                              transactionResponse.result = pollingResult.result.error.errors; 
                              transactionResponse.status = pollingResult.status;
                              break; 

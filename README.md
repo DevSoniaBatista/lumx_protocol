@@ -13,6 +13,18 @@ $ npm install next react react-dom
 $ npm install @vercel/node
 ```
 
+```shell
+$ npm install --save @emailjs/browser
+```
+
+```shell
+$ npm install file-saver
+```
+
+```shell
+$ npm install mongodb
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -38,30 +50,58 @@ Deploy the app to production.
 
 For more information about deployment, visit: [Vercel](https://vercel.com)
 
+<hr/>
+
 # Important
 
 ## Front-end - Web2 
-Front-end is ready to integrate with the [Lumx Protocol](https://docs.lumx.io/api-reference/v2).
-</p>Front-end Deployed at Vercel => https://lumx-tdc.vercel.app </p>
+The front-end is integrated with the [Lumx Protocol](https://docs.lumx.io/api-reference/v2)
+and deployed on Vercel => https://lumx-tdc.vercel.app
 
+<hr/>
 
 ## Create Token with Zero Knowledge of Smart Contracts
 <p><a href= "https://www.loom.com/share/b7153151c8894d1ea8931a321d8f3010?sid=d0c96fa1-79d1-41c2-b6ea-1d402cc28318"> 
 Demo  
 </a> </p>
 
-## Create Token via Custom Transaction
-Demo (soon)
-Contract created on the Polygon network, with functions being called through the Lumx API, featuring Custom Transaction functionality.
-<p>Contract Address: 0x10beA54dd546F53b0736c7b5fB5A5BD105fe5749</p>
+<hr/>
 
-### Explorer Scan
-https://amoy.polygonscan.com/address/0x10beA54dd546F53b0736c7b5fB5A5BD105fe5749
-</p>
+## Create Token via Custom Transaction
+<p><a href= "https://www.loom.com/share/f4a010e115be411dbe31d59f9235dbd9?sid=3b89c9bc-edcf-4816-a748-c51c8aefa5e4"> 
+Demo  
+</a> </p>
+Contract created on the Ethereum (Sepolia) network, with functions being called through the Lumx API, featuring Custom Transaction functionality.
+<p>Contract Address: 0x57dc84c020d7d93ac512e0cfb574a824e57a9533</p>
+
+See at Blockchain - [Explore Scan](https://sepolia.etherscan.io/address/0x57dc84c020d7d93ac512e0cfb574a824e57a9533)
+
+<p>Parameters used in this contract:</p>
+
+Function Signature: 
+
+```shell
+createToken(string, string)
+```
+
+<p>Arguments Values:</p>
+
+json - example 1:
+```shell
+"https://ipfs.io/ipfs/QmSa4iQEPdqHaHU5XJQbFNdq26ThHFavtrEKYP2dCNwBvH", "Lumx1"
+```
+
+json - example 2:
+```shell
+"https://ipfs.io/ipfs/QmSAU1e9AQn1m2VV9xJ888EHYg4x5mKfnzrLwnuvaetJcg", "Lumx2"
+```
+
 <hr/>
 
 # Author
 *Sonia Mara Batista
 <p>Dev Blockchain, Solidity, Web3 </p>
-<p>Linkedin: (https://www.linkedin.com/in/soniamarabatista/) </p>
-<p>Email: dev.soniabatista@gmail.com </p>
+
+Linkedin: [https://www.linkedin.com/in/soniamarabatista/](https://www.linkedin.com/in/soniamarabatista/) 
+
+email: [dev.soniabatista@gmail.com](mailto:dev.soniabatista@gmail.com)
