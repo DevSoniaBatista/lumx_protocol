@@ -13,18 +13,6 @@ $ npm install next react react-dom
 $ npm install @vercel/node
 ```
 
-```shell
-$ npm install --save @emailjs/browser
-```
-
-```shell
-$ npm install file-saver
-```
-
-```shell
-$ npm install mongodb
-```
-
 ## Available Scripts
 
 In the project directory, you can run:
